@@ -2,11 +2,11 @@
 
 ### Deploy
 
---soon--
+https://anime-agenda.vercel.app/
 
 ### Visualização do Projeto
 
---soon--
+![Anime Agenda print](https://user-images.githubusercontent.com/103612874/214708402-bc87e7d9-be2f-4aa5-88d9-5f9f4bfeb4f4.jpg)
 
 ## Como Funciona
 

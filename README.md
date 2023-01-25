@@ -1,5 +1,4 @@
-﻿# Anime Agenda - Página que mostra os principais eventos de anime acontecendo pelo Brasil! Desenvolvida a partir das instruções do curso de Flexbox e Grid - Alura 2023
-Uma página web responsiva criada para praticar <strong>Flexbox</strong> e <strong>Grid</strong> - Criado com instruções da escola [Alura](https://www.alura.com.br/).
+# Anime Agenda
 
 ### Deploy
 
@@ -11,7 +10,8 @@ Uma página web responsiva criada para praticar <strong>Flexbox</strong> e <stro
 
 ## Como Funciona
 
-Uma página web responsiva criada para praticar <strong>Flexbox</strong> e <strong>Grid</strong>
+Página que mostra os principais eventos de anime acontecendo pelo Brasil! Desenvolvida a partir das instruções do curso de Flexbox e Grid - Alura 2023
+Uma página web responsiva criada para praticar <strong>Flexbox</strong> e <strong>Grid</strong> - Criado com instruções da escola [Alura](https://www.alura.com.br/).
 
 ## Linguagens e estruturas de desenvolvimento:
 
@@ -23,6 +23,7 @@ Uma página web responsiva criada para praticar <strong>Flexbox</strong> e <stro
 ## Aprendizados:
 
 * Reforço nos conhecimentos do CSS
+* Reforço nos conhecimentos de Mobile First
 
 ## Agradecimentos
 

@@ -1,0 +1,43 @@
+.categorias__lista {
+    display: flex;
+    flex-direction: column;
+    row-gap: .5rem;
+}
+
+@media (min-width: 720px) {
+    .categorias__lista {
+        flex-wrap: wrap;
+        column-gap: 1rem;
+        row-gap: 1rem;
+    }
+}
+
+@media (min-width: 1440px) {
+    .categorias {
+        display: grid;
+        grid-template-areas: 
+            "titulo titulo"
+            "lista destaques"
+            "lista imagem";
+        row-gap: 1rem;
+        column-gap: 1rem;
+        grid-template-columns: calc(50% - .5rem);
+        grid-template-rows: auto 1fr auto;
+    }
+
+    .categorias__titulo {
+        grid-area: titulo;;
+    }
+
+    .categorias__lista {
+        grid-area: lista;
+    }
+
+    .categorias__destaques {
+        grid-area: destaques;
+    }
+
+    .categorias__imagem {
+        grid-area: imagem;
+    }
+}

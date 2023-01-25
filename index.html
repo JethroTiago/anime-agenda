@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime Agenda</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Work+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+        integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="./assets/img/aaicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/style/flex-header.css">
+    <link rel="stylesheet" href="./assets/style/grid-banner.css">
+    <link rel="stylesheet" href="./assets/style/flex-categorias.css">
+    <link rel="stylesheet" href="./assets/style/flex-destaques.css">
+    <link rel="stylesheet" href="./assets/style/flex-eventos.css">
+    <link rel="stylesheet" href="./assets/style/flex-agenda.css">
+    <link rel="stylesheet" href="./assets/style/flex-rodape.css">
+    <link rel="stylesheet" href="./assets/style/style.css">
+</head>
+
+<body>
+    <header>
+        <nav id="menu__titulo">
+            <ul class="menu">
+                <li class="menu__item">
+                    <h1 class="menu__titulo"></h1>
+                </li>
+                <li class="menu__item"><a href="#" class="">Programação</a></li>
+                <li class="menu__item"> <a href="#categorias">Categorias</a></li>
+                <li class="menu__item"><a href="#">Em seu local</a></li>
+
+                <li class="menu__item menu__pesquisar">
+                    <label class="menu__label" for="pesquisar"><input class="menu__input" type="search" name="" placeholder="O que você procura?"
+                        id="pesquisar"></label>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="principal">
+
+        <section class="banner">
+            <img src="./assets/img/banner1.png" alt="Banner com anime one piece">
+            <img src="./assets/img/banner2.png" alt="Banner com cosplayers">
+            <img src="./assets/img/banner3.png" alt="Banner com games">
+            <img src="./assets/img/banner4.png" alt="Banner com manga">
+        </section>
+
+        <section class="categorias" id="categorias">
+            <h2 class="categorias__titulo">Categorias</h2>
+            <ul class="categorias__lista">
+                <li class="categorias__item">Eventos</li>
+                <li class="categorias__item">Cosplay</li>
+                <li class="categorias__item">Games</li>
+                <li class="categorias__item">Mangá</li>
+                <li class="categorias__item">Dança</li>
+                <li class="categorias__item">Culinária</li>
+                <li class="categorias__item">Tecnologia</li>
+                <li class="categorias__item">E-Sports</li>
+            </ul>
+            <div class="categorias__destaques">
+                <div class="destaques">
+                    <h3 class="destaques__titulo">Destaques:</h3>
+                    <div class="destaques__barra"></div>
+                    <div>
+                        <img src="./assets/img/icone-seta-voltar.png">
+                        <img src="./assets/img/icone-seta-avancar.png">
+                    </div>
+                </div>
+            </div>
+            <div class="categorias__imagem"></div>
+        </section>
+
+        <section class="eventos">
+            <h2 class="eventos__titulo">Próximos eventos</h2>
+            <ul class="eventos__lista">
+                <li class="eventos__item">
+                    <img src="./assets/img/evento-1.png" alt="Banner do Evento Natsu Fest Pocket">
+                    <h3>Natsu Fest Pocket</h3>
+                    <h4>25/02/23</h4>
+                    <h5>São José dos Pinhais | PR</h5>
+                    <button>Ver</button>
+                </li>
+                <li class="eventos__item">
+                    <img src="./assets/img/evento-2.png" alt="Banner do Evento CosFantasy">
+                    <h3>CosFantasy</h3>
+                    <h4>12/02/23</h4>
+                    <h5>Rio de Janeiro | RJ</h5>
+                    <button>Ver</button>
+                </li>
+                <li class="eventos__item">
+                    <img src="./assets/img/evento-3.png" alt="Banner do Evento Otaku Edition">
+                    <h3>Otaku Edition Summoners Rift</h3>
+                    <h4>28/01/23</h4>
+                    <h5>Campinas | SP</h5>
+                    <button>Ver</button>
+                </li>
+                <li class="eventos__item">
+                    <img src="./assets/img/evento-4.png" alt="Banner do Evento Anime Dragon">
+                    <h3>Anime Dragon</h3>
+                    <h4>12/02/23</h4>
+                    <h5>Rio de Janeiro | RJ</h5>
+                    <button>Ver</button>
+                </li>
+                <li class="eventos__item">
+                    <img src="./assets/img/evento-5.png" alt="Banner do Evento Kenko Festival">
+                    <h3>Kenko Festival</h3>
+                    <h4>12/02/23</h4>
+                    <h5>Santo Amaro | SP</h5>
+                    <button>Ver</button>
+                </li>
+                <li class="eventos__item">
+                    <img src="./assets/img/evento-6.png" alt="Banner do Evento Império Geek">
+                    <h3>Império Geek</h3>
+                    <h4>05/02/23</h4>
+                    <h5>Rio de Janeiro | RJ</h5>
+                    <button>Ver</button>
+                </li>
+            </ul>
+            <div class="eventos__botao">
+                <button>Ver mais</button>
+            </div>
+        </section>
+        <section class="agenda">
+            <h2 class="agenda__titulo">Anote em sua agenda!</h2>
+            <ul class="agenda__lista">
+                <li class="agenda__item">
+                    <img src="./assets/img/agenda-1.png" alt="Banner Nerd Experience">
+                    <div class="agenda__informacoes">
+                        <h3>março</h3>
+                        <h4>18 e 19</h4>
+                        <h5>12:00</h5>
+                    </div>
+                    <div class="agenda__atracao">
+                        <h6>Nerd Experience Belo Horizonte</h6>
+                        <button>Avise-me</button>
+                    </div>
+                </li>
+                <li class="agenda__item">
+                    <img src="./assets/img/agenda-2.png" alt="Banner Anime Santos Geek">
+                    <div class="agenda__informacoes">
+                        <h3>março</h3>
+                        <h4>18 e 19</h4>
+                        <h5>20:00</h5>
+                    </div>
+                    <div class="agenda__atracao">
+                        <h6>Anime Santos Geek Fest</h6>
+                        <button>Avise-me</button>
+                    </div>
+                </li>
+                <li class="agenda__item">
+                    <img src="./assets/img/agenda-3.png" alt="Banner Baixada Geek">
+                    <div class="agenda__informacoes">
+                        <h3>abril</h3>
+                        <h4>23 (domingo)</h4>
+                        <h5>11:00</h5>
+                    </div>
+                    <div class="agenda__atracao">
+                        <h6>Baixada Geek Nilópolis</h6>
+                        <button>Avise-me</button>
+                    </div>
+                </li>
+                <li class="agenda__item">
+                    <img src="./assets/img/agenda-4.png" alt="Banner Festiva Nerd">
+                    <div class="agenda__informacoes">
+                        <h3>março</h3>
+                        <h4>25 e 26</h4>
+                        <h5>11:00</h5>
+                    </div>
+                    <div class="agenda__atracao">
+                        <h6>Festiva Nerd Maceió</h6>
+                        <button>Avise-me</button>
+                    </div>
+                </li>
+                <li class="agenda__item">
+                    <img src="./assets/img/agenda-5.png" alt="Banner Starlight">
+                    <div class="agenda__informacoes">
+                        <h3>março</h3>
+                        <h4>04 e 05</h4>
+                        <h5>22:00</h5>
+                    </div>
+                    <div class="agenda__atracao">
+                        <h6>Starlight intense Pub</h6>
+                        <button>Avise-me</button>
+                    </div>
+                </li>
+                <li class="agenda__item">
+                    <img src="./assets/img/agenda-6.png" alt="Banner Bangu Geek">
+                    <div class="agenda__informacoes">
+                        <h3>abril</h3>
+                        <h4>16 (domingo)</h4>
+                        <h5>11:00</h5>
+                    </div>
+                    <div class="agenda__atracao">
+                        <h6>Bangu Geek Rio de Janeiro</h6>
+                        <button>Avise-me</button>
+                    </div>
+                </li>
+            </ul>
+            <div class="agenda__botao">
+                <button>Ver mais</button>
+            </div>
+        </section>
+    </main>
+    <footer class="rodape">
+        <ul class="rodape__lista">
+            <li>
+                <h3 class="rodape__titulo">Encontre eventos</h3>
+            </li>
+            <li>Esta semana</li>
+            <li>Este fim de semana</li>
+            <li>Este mês</li>
+            <li>Este trimestre</li>
+            <li>Este semestre</li>
+        </ul>
+        <ul class="rodape__lista">
+            <li>
+                <h3 class="rodape__titulo">Cidades</h3>
+            </li>
+            <li>São Paulo</li>
+            <li>Rio de Janeiro</li>
+            <li>Belo Horizonte</li>
+            <li>Salvador</li>
+            <li>Maceió</li>
+            <li>Curitiba</li>
+        </ul>
+        <ul class="rodape__lista">
+            <li>
+                <h3 class="rodape__titulo">Categorias</h3>
+            </li>
+            <li>Eventos</li>
+            <li>Cosplay</li>
+            <li>Games</li>
+            <li>Mangá</li>
+            <li>Dança</li>
+            <li>Culinária</li>
+            <li>Tecnologia</li>
+            <li>E-Sport</li>
+        </ul>
+        <ul class="rodape__lista">
+            <li>
+                <h3 class="rodape__titulo">Anime Agenda</h3>
+            </li>
+            <li>Quem somos</li>
+            <li>Contato</li>
+            <li>Localização</li>
+            <li>Trabalhe com a gente</li>
+        </ul>
+        <ul class="rodape__lista">
+            <li>
+                <h3 class="rodape__titulo">Anuncie seu evento</h3>
+            </li>
+            <li>Anime e festas</li>
+            <li>Stands e workshops</li>
+            <li>E-Sports</li>
+            <li>Shows musicais</li>
+            <li>Games</li>
+            <li>Cosplay e concursos</li>
+        </ul>
+        <div class="rodape__logo">
+            <a href="#menu__titulo"><h4></h4></a>
+            <p>Desenvolvido por Jethro Tiago - 2023</p>
+        </div>
+    </footer>
+</body>
+
+</html>

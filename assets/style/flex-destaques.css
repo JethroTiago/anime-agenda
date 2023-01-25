@@ -1,0 +1,10 @@
+.destaques {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.destaques__barra {
+    flex-grow: 1;   /*Propriedade aplicada ao flex-item*/
+}

@@ -1,5 +1,7 @@
 # Anime Agenda
 
+Página web (HTML & CSS only) desenvolvida a partir das instruções do curso de Flexbox e Grid - Alura 2023
+
 ### Deploy
 
 https://anime-agenda.vercel.app/
@@ -10,8 +12,7 @@ https://anime-agenda.vercel.app/
 
 ## Como Funciona
 
-Página que mostra os principais eventos de anime acontecendo pelo Brasil! Desenvolvida a partir das instruções do curso de Flexbox e Grid - Alura 2023
-Uma página web responsiva criada para praticar <strong>Flexbox</strong> e <strong>Grid</strong> - Criado com instruções da escola [Alura](https://www.alura.com.br/).
+Página que mostra os principais eventos de anime acontecendo pelo Brasil! <br>Uma página web responsiva criada para praticar <strong>Flexbox</strong> e <strong>Grid</strong> - Desenvolvido a partir de instruções da escola [Alura](https://www.alura.com.br/).
 
 ## Linguagens e estruturas de desenvolvimento:
 
